@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SGTA su turno</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css" media="all">
+<script src="/webjars/jquery/jquery.min.js"></script>
+<script
+	src="https://cdn.jsdelivr.net/npm/sweetalert2@9.17.2/dist/sweetalert2.all.min.js">
+	
+</script>
+<script src="/webjars/sockjs-client/sockjs.min.js"></script>
+<script src="/webjars/stomp-websocket/stomp.min.js"></script>
+<script src="/app.js"></script>
+</head>
+<body onLoad="connect()" onUnload="disconnect()">
+	<noscript>
+		<h2 style="color: #ff0000">Seems your browser doesn't support
+			Javascript! Websocket relies on Javascript being enabled. Please
+			enable Javascript and reload this page!</h2>
+	</noscript>
+
+	<p id="HoraActual"></p>
+	<h2 id="titulo">Visualizador de turnos SGTA</h2>
+	<div id="main-content" class="container">
+		<label for="mail" id="label_mail">Favor ingrese su mail
+			registrado</label>
+		<div class="row">
+			<div class="col-md-2">
+				<form class="form-inline">
+					<div class="form-group">
+						<input type="email" required id="mail" class="form-control"
+							size="50" placeholder="Favor ingrese su mail">
+					</div>
+				</form>
+			</div>
+		</div>
+		<div>
+			<br>
+		</div>
+		<div>
+			<button id="send" name=enviar class="btn btn-default" type="submit">Enviar</button>
+		</div>
+		<div>
+			<br>
+		</div>
+		<div>
+			<br>
+		</div>
+		<div id="div1">
+			<br> <br>
+		</div>
+		<div id="div2">
+			<br> <br>
+		</div>
+		<div id="div3">
+			<br> <br>
+		</div>
+		<div id="div4">
+			<br> <br>
+		</div>
+		<div id="div5">
+			<br> <br>
+		</div>
+		<div id="div6">
+			<br> <br>
+		</div>
+		<div id="div7">
+			<br> <br>
+		</div>
+		<div id="div8">
+			<br> <br>
+		</div>
+		<span id="countdown"></span>
+		<footer>
+			<center>
+				<p>Copyright © 2021 Proyecto título Ciisa.cl</p>
+			</center>
+		</footer>
+</body>
+</body>
+</html>

@@ -1,0 +1,48 @@
+#send {
+	clear: left;
+	font-size: 100%;
+	font-weight: bold;
+	border: 2px solid #0099CC;
+	border-radius: 6px;
+	background-color: #008CBA;
+	color: white;
+	cursor: hand;
+	height: auto;
+}
+
+/* Style the header */
+#titulo {
+	background-color: black;
+	padding: 10px;
+	text-align: center;
+	font-size: 25px;
+	color: white;
+}
+
+#disconnect {
+	clear: left;
+	font-size: 100%;
+	font-weight: bold;
+	border: 2px solid #0099CC;
+	border-radius: 6px;
+	background-color: #008CBA;
+	color: white;
+	cursor: hand;
+}
+
+.timepo {
+	font-size: 100%;
+	color: Black;
+	white-space: nowrap;
+}
+
+#tiempo span {
+	clear: left;
+	font-size: 100%;
+	font-weight: bold;
+	border: 2px solid #0099CC;
+	border-radius: 6px;
+	background-color: #008CBA;
+	color: white;
+	cursor: hand;
+}
